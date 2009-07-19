@@ -1,0 +1,22 @@
+$red = #900;
+$mypink = #fac;
+
+$bgcolor = #333;
+$foreground = #ddd;
+
+
+$width = -;
+ 
+ 
+		
+
+body {
+	background: $bgcolor;
+	color: $foreground;
+}
+
+div#abc {
+	background: $red;
+	color: $mypink;
+	width: $width;
+}
