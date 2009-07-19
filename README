@@ -1,0 +1,23 @@
+
+WHAT IS THIS?
+
+This is a very basic PHP script to get this project going. The goal is to
+create a sort of CSS processor using PHP. The purpose is to generate
+minimized, browser-friendly CSS from a regular stylesheet while introducing
+additional shorthand properties and variables to allow for faster CSS
+development. There is not yet an official milestone or feature-list for the
+project – it's in its infancy.
+
+HOW TO USE IT? 
+
+Change the name of the PHP script to your liking. Call it like so:
+
+	css.php?style=stylesheet.css
+
+The default style.css provided demonstrates using variables (versus
+constants in the css) that allow you to pass values via the query string. 
+
+	css.php?style=style.css&width=400px
+
+The code is all public domain at this point. Feel free to use it, adapt it,
+profit off it, etc. A proper license will be added in the future.
